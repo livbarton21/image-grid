@@ -18,22 +18,51 @@ html {
 }
 
 img {
-padding: 0;
 margin: 0;
 display: inline-block;
+width: 100%;
+float: left;
+}
+
+img:nth-child(2) {
+  display: none;
+}
+
+img:nth-child(5) {
+  display: none;
 }
 
 section {
   padding: 0;
+  margin: 0;
 }
 
 body {
   margin: 0;
   padding: 0;
+  display: block;
 }
 
 @media only screen and (min-width: 25em) {
 
+  img:nth-child(2) {
+    display: inline-block;
+    max-width: 50%;
+}
+
+  img:nth-child(3) {
+    display: inline-block;
+    max-width: 50%;
+  }
+
+  img:nth-child(4) {
+    display: inline-block;
+    max-width: 50%;
+}
+
+img:nth-child(5) {
+  display: inline-block;
+  max-width: 50%;
 }
 
 @media only screen and (min-width: 38em) {
@@ -45,5 +74,5 @@ body {
 }
 
 @media only screen and (mnin-width: 90em) {
-  
+
 }
