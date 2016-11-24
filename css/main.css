@@ -104,6 +104,3 @@ img:nth-child(5) {
     display: inline-block;
     max-width: 33.3333%;
   }
-
-@media only screen and (mnin-width: 90em) {
-  }
