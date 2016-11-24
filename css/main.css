@@ -69,29 +69,41 @@ img:nth-child(5) {
 
   img:nth-child(2) {
     display: inline-block;
-    max-width: 33.33%;
+    max-width: 33.3333%;
 }
 
   img:nth-child(3) {
     display: inline-block;
-    max-width: 33.33%;
+    max-width: 33.3333%;
   }
 
   img:nth-child(4) {
     display: inline-block;
-    max-width: 33.33%;
+    max-width: 33.3333%;
   }
 
   img:nth-child(5) {
     display: none;
   }
 
-}
-
 @media only screen and (min-width: 60em) {
 
-}
+  img:nth-child(1) {
+    display: inline-block;
+    max-width: 66.6666%;
+    height: auto;
+  }
+
+  img:nth-child(2) {
+    display: inline-block;
+    max-width: 33.3333%;
+    height: auto;
+  }
+
+  img:nth-child(5) {
+    display: inline-block;
+    max-width: 33.3333%;
+  }
 
 @media only screen and (mnin-width: 90em) {
-
-}
+  }
